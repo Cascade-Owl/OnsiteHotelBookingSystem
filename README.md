@@ -29,13 +29,13 @@
 ## How to use
 1. Run the main script **MyHotel_BookingSystem.py** on a terminal.
 
-2. Enter your MySQL server credentials 
+2. Enter your MySQL server credentials. 
 
 **Example:**
 
 ![Example Image](https://uc07eb1c75dd6d6f77e6002ab6a8.previews.dropboxusercontent.com/p/thumb/ACayKe3fZKGIPMT8QDZpwaYefcBEJLkWMCDjnz7m8FLBZmlFA6T0P_Qri8zjwcnU3NBntg4nP1DhHmAn2rfAmeaOdVOIgZe7oewDAXeBFib1jM-0AAoNocTnGowDGFeGsPsOLxNx-AjbhK0hYN_PDVGrxuSVGZXZv7qu6EPDJGBnqAePUWANc9xNoE2jDuHCEZ1jkdtlSFWma3_Ibki8wWR2rbhd0QSpBNgmXDXGgHJB3U_FTQemMe5SAYfutv5CeQ2wEmUrzPQLoXWm47dRoe5-FNJU9DEUglsxTjXQBuYvQsErxmkliDpylrD1MkCgJ0WUOdrb-tqSue0XuJr7At4XWEQis8Aw05JcrqirIiF75s_QDW0os-wptLdxvmyneg8/p.png?is_prewarmed=true)
 
-3. Once the connection to the database is established and initialized, you will see the main menu
+3. Once the connection to the database is established and initialized, you will see the main menu.
 
 **Example:**
 
@@ -54,7 +54,7 @@
 - This displays the history of customers who occupied the rooms (and their customer IDs).
 
 4. **Refresh**
-- Does nothing
+- Does nothing.
 
 5. **Exit**
 - This terminates the running program.
