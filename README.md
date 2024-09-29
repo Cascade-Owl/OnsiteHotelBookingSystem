@@ -6,7 +6,7 @@
 
 1. Customers are automatically evicted after 1 minute and 25 seconds using the AutomateCustomerLeave function.
 2. The system supports 5 rooms only for simplicity.
-3. The booking system is not a 24/7 service. It only runs while the script is active, but the system saves the previous state so you can resume the booking process later.
+3. The booking system does not offer 24/7 service. It only runs while the script is active, but the system saves the previous state so you can resume the booking process later.
 4. Time is based on the local machine’s clock (e.g., laptop or phone), not the database.
 
 
@@ -39,13 +39,13 @@
 
 **Example:**
 
-![Example Image](https://uc8010a8bcb5d626c7cb106c8625.previews.dropboxusercontent.com/p/thumb/ACaorZ7JRjj93HpJ4HdMPum6zVbcmwz_8MQ5hTl0IffGOd-jcIvPGUh7spvSqRJX3lfv76QdPgCmSO4bidXvJn3hqrCUuZSvkdWEIozl7rQ_F2xJormsk4zCoyXD3BWq0j2mC1nQJS4OImZJ70sA7rZFYnU4NHdc6zVju2p7uoDBM3jJ9KFa7BuVUSv4YqmV-MbUgaqwN90C-G6AoCx84ri-R_5LXr17AY6UMUk02OifOSHL7PvVhglr7FaDmFxMHTdd0zBZ0GDXrg5_1nrrLHfgVTVDGJqIBKuYj8xAF38v0w0B9Bu5L6qP7up4dBt0S4_355QVkfRSyiA7qBOH-0UEn0Q-iHLFpfmju61XcJcHpmtb5EXO2Gf5SZpW5pMjQx4/p.png?is_prewarmed=true)
+![Example Image](https://uc8010a8bcb5d626c7cb106c8625.previews.dropboxusercontent.com/p/thumb/ACaRkCqC8RyZL_WCI2qL6Nm5mzRIFQbVpyGCIhVlz6ElG0QfjwUs_-vl2sJ2rS-TIwynGA20tiVzyu639o0uKYW2S6GLrrTZF4dj8eGJe6UIiFj_Txiy_PzjKHfegEf-CFKK8O_ebPcHC6jYqnPVCLWa4wS7BqFaEM0nP9IVpB4ku0Tvm_vuCx4jDrpZOppupE36qhf6QbJ0SrCaoWMr6Ml7Av8bpEUX9o_FE4BH08brpStiM8RamnSMAM8cDlyPH9BTp3gVTlcVP09Ds5auWrSDG3Lz33XX7_fgr5IqoLdISdgFueP2HBQp94cCK9vLpDrSSoGsJKZBNxS1JQm_mkcw-gYoQeB_KKXxYXYYoj0QCc-neef70bqVb5Mcp_fXqnE/p.png?is_prewarmed=true)
 
 **Note**: You will be prompted for an input. In this case, only input integers from 1 to 5.
 
 ## What each function in the menu does
 1. **Add Customer**
-- This adds a customer to the database, and then appoints it a vacant room. If there are no vacant rooms, the customer is queued until a room becomes available, and is automatically appointed a room.
+- This adds a customer to the database and then appoints it to a vacant room. If there are no vacant rooms, the customer is queued until a room becomes available and is automatically appointed a room.
 
 2. **Delete Customer**
 - This removes every record of a customer in the database associated with the inputted name. This also includes a customer who occupies a room.
